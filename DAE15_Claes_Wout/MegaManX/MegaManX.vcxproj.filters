@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{1c79b0a6-aa7f-493d-a951-9570bf317965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World">
+      <UniqueIdentifier>{33583def-559a-49a0-add7-032aca32dfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets">
+      <UniqueIdentifier>{e3e00e67-0cc6-4b06-b32a-6a863dd401a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies">
+      <UniqueIdentifier>{3f95e2bf-4b60-47a3-a323-23679b730ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Header">
+      <UniqueIdentifier>{f1d2fb56-a3fb-4e94-95b8-edcb7ec6901f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\World\Source">
+      <UniqueIdentifier>{7b83e038-5f50-4d5a-bfde-98950b34e220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\Header">
+      <UniqueIdentifier>{67e3f9a3-0b16-4216-af31-272749a608c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\Source">
+      <UniqueIdentifier>{4537a4a9-0ebf-4a4d-83ad-cc38a66e6764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Header">
+      <UniqueIdentifier>{b1e4a04f-eb58-43a2-bda6-6970522ba35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Source">
+      <UniqueIdentifier>{703e2dab-67a9-4fc3-87ae-295881c5a50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Source">
+      <UniqueIdentifier>{1531507b-994c-4efe-852e-e3b89415d0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Header">
+      <UniqueIdentifier>{578b1554-5b25-42c5-9817-08480280a969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\Header">
+      <UniqueIdentifier>{ad8fcec0-ca22-4f16-9a53-e228458abf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\Source">
+      <UniqueIdentifier>{87cb8890-b47d-488e-84b1-87976253b4ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Main">
+      <UniqueIdentifier>{add595e3-c8cb-4435-a157-88c1aa1ef160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Main\Source">
+      <UniqueIdentifier>{13cc9b33-4264-4749-9acc-f0bf093187af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Main\Header">
+      <UniqueIdentifier>{a9ecb1a7-3019-457d-943b-92cfe8cbdba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Source\Enemy">
+      <UniqueIdentifier>{aa8c6832-de25-4048-ae68-2682ec109297}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Source\Enemy\MiniBoss">
+      <UniqueIdentifier>{6f17a6da-3cf1-42f5-b7b8-1df46437b66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Header\Enemy">
+      <UniqueIdentifier>{2a248fbb-2fbd-4399-8244-2fdd3841eea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Header\Enemy\MiniBoss">
+      <UniqueIdentifier>{11b5e526-74e9-43ed-a600-ba15d0fd64ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Header\PlayerBullet">
+      <UniqueIdentifier>{434d6d32-fe08-4ebd-9688-d0d648934870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Header\EnemyBullet">
+      <UniqueIdentifier>{9cc79017-e895-49da-ac18-a272665bf96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Source\PlayerBullet">
+      <UniqueIdentifier>{d5dd0e9a-5989-42a7-ac34-549810d8cee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Source\EnemyBullet">
+      <UniqueIdentifier>{5b10e1e4-504f-4b15-925d-3f49eb3b48e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Header\Base">
+      <UniqueIdentifier>{18725a91-b923-4724-887d-7ac334d22038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullets\Source\Base">
+      <UniqueIdentifier>{267a7d28-7de2-4229-960c-8dc27307661e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Header\Base">
+      <UniqueIdentifier>{e42bdaf2-7c83-42b4-a329-3853299cb883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemies\Source\Base">
+      <UniqueIdentifier>{d3ccb328-bf68-4ce8-ba44-d0243d48d309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game\World\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game\World\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game\World\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Player\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Function\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Function\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game\Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game\Main\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GunVolt.cpp">
+      <Filter>Game\Enemies\Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Spiky.cpp">
+      <Filter>Game\Enemies\Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BallDeVoux.cpp">
+      <Filter>Game\Enemies\Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Crusher.cpp">
+      <Filter>Game\Enemies\Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeBlader.cpp">
+      <Filter>Game\Enemies\Source\Enemy\MiniBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="XBullet.cpp">
+      <Filter>Game\Bullets\Source\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GunVoltGroundBullet.cpp">
+      <Filter>Game\Bullets\Source\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GunVoltMissile.cpp">
+      <Filter>Game\Bullets\Source\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeBladerBullet.cpp">
+      <Filter>Game\Bullets\Source\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BeeBladerMissile.cpp">
+      <Filter>Game\Bullets\Source\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Game\Player\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPlatform.cpp">
+      <Filter>Game\World\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game\Bullets\Source\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Enemies\Source\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Game\Bullets\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game\Enemies\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h">
+      <Filter>Game\World\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game\World\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game\World\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Player\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Function\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game\Main\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game\Main\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Spiky.h">
+      <Filter>Game\Enemies\Header\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GunVolt.h">
+      <Filter>Game\Enemies\Header\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BallDeVoux.h">
+      <Filter>Game\Enemies\Header\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Crusher.h">
+      <Filter>Game\Enemies\Header\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeBlader.h">
+      <Filter>Game\Enemies\Header\Enemy\MiniBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="XBullet.h">
+      <Filter>Game\Bullets\Header\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GunVoltMissile.h">
+      <Filter>Game\Bullets\Header\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GunVoltGroundBullet.h">
+      <Filter>Game\Bullets\Header\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeBladerBullet.h">
+      <Filter>Game\Bullets\Header\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BeeBladerMissile.h">
+      <Filter>Game\Bullets\Header\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Game\Player\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPlatform.h">
+      <Filter>Game\World\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game\Bullets\Header\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Enemies\Header\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Game\Bullets\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game\Enemies\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

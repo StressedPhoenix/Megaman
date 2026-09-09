@@ -4,22 +4,19 @@
 <br />
 <div align="center">
 
-  <h1 align="center">The Binding Of Isaac</h1>
+  <h2 align="center">Mega Man X</h2>
 
   <p align="center">
-    It is a roguelike game whose story is imspired by the Biblical story of the same name.
-    It take a lot of inspiration from The legend of Zelda, but everything is procedurally generated.
+    Mega Man X is the first of the Mega Man X series. It was originally released in 1993 for the SNES. Mega Man X is an action-platform game where the player takes control of the eponymous character and must complete a set of eight, initial stages in any order desired. Defeating the boss character at the end of each stage grants the player one new weapon that can then be toggled and used at will for the remainder of the game. And throughout the levels, more body upgrades can be found as well.
     <br />
     <strong>Original game : </strong>
-    <a href="https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki"><strong>General info »</strong></a>
+    <a href="https://megaman.fandom.com/wiki/Mega_Man_X_(video_game)"><strong>General info »</strong></a>
     ·
-    <a href="https://youtu.be/QjK0qeu6Xpk"><strong>Youtube video »<strong></a>
+    <a href="https://www.youtube.com/watch?v=KDciDXnm3ek"><strong>Youtube video »<strong></a>
     <br />
     <br />
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -42,92 +39,88 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![screenshot of the project running](<Screenshot 2024-06-09 221306.png>)
+![screenshot of the original game](<images_&_spritesheets/README/DAE15_Wout_Claes_GameProposal_ScreenShot.jpg>)
 
 Here's why:
-* reason 1
-It looked like something I could recreate.
-* reason 2
-I had never played it before and it has very good reviews so I wanted to try it.
+* Reason 1: It looked like a fun side scroler that I could recreate
+
+* Reason 2: I had heard a lot about the megaman series but never played any of the games, so this is a good excuse to play one of them
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## My version
 
 This section gives a clear and detailed overview of which parts of the original game I planned to make.
 
 ### The minimum I will most certainly develop:
-* A player character.
-* An enemy
-* an item
-* The random generation of the level.
+* The player character X
+* Some basic enemies
+* Charge shot mechanic
+
 ### What I will probably make as well:
-* More enemies
-* More items
-* A boss.
+* Level destruction
+* Wall jump mechanic
 
 ### What I plan to create if I have enough time left:
-* The shop mechanic.
+* More of the level than is seen in the proposal video
+* The final boss of the level
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Detailed instructions on how to run your game project are in this section.
 
 ### Prerequisites
 
-* Visual Studio 2022:
-You can download this online from Microsoft.
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
 
 ### How to run the project
 
-You download the latest version and set it to the startup project, you can do this by right clicking on TheBindingOfIsaac on the side of your screen.
-After this you just hit the green playbutton on the top and you can play.
+Explain which project (version) must be run.
+* Download the latest version of the project and open the .sln file in visual studio, set the startup project to MegaManX. This is done by right clicking on MegaManX in the solution explorer and selecting "set as startup project". Pressing the green arrow now at the top of visual studio should run the game (or press F5).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- HOW TO PLAY -->
 ## How to play
 
 ### Controls
-* keys:
-W, A, S and D to go up, left, down and right respectively.
-Up, left down and right arrows to shoot up, left, down and right respectively.
+Universal:
+* Page up to turn the volume up
+* Page down to turn the volume down
+
+In the menu:
+* Up and down arow keys to select a different option
+* Spacebar to select
+
+![screenshot of the menu](<images_&_spritesheets/README/Menu.png>)
+
+In the game:
+* a & d to move left and right respectivly.
+* Click and hold to shoot and charge the shot.
+* Spacebar to jump.
+* Backspace to reset the game to the menu
+* k to reset the level
+
+![screenshot of the menu](<images_&_spritesheets/README/Game.png>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CLASS STRUCTURE -->
 ## Class structure 
 
 ### Object composition 
-
-The player class owns a bullet class that is used in a vector to make the multiple bullets the palyer can shoot, I also use this vector to pass on to other classes for hit detection.
+* The Bullet manager class contains a std::vector that contains Bullet* objects, while these objects are created on the heap they are still managed by the manager class.
+* The Enemy manager class contains a std::vector that contains Enemy* objects, while these objects are created on the heap they are still managed by the manager class.
 
 ### Inheritance 
-Inheritance is used in the classes of the enemies, the classes of the items and the classes for the rooms, this is for future proofing and to only need one data member to store all these things.
-
-For the enemies, they would be stored in the Room struct so that every room can open and close based on if the enemies are alive or not.
-
-The Items are stored in the game class itself and passed to the Map for drawing and to the player for altering there stats.
-
-The rooms are managed by the map class, this way the Map class only makes a grid and assigns the room to it. Afterwards, it's just used for passing data.
-
-### ..
+* The bullets all inherit from a base Bullet class, this base Bullet class is then called in a bullet manager and the correct bullets are used because of polymorphism.
+* The enemies all inherit from a base Enemy class, this base Enemy class is then called in a enemy manager and the correct enemies are used because of polymorphism.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CHECKLIST -->
 ## Checklist
@@ -152,20 +145,19 @@ The rooms are managed by the map class, this way the Map class only makes a grid
 <!-- CONTACT -->
 ## Contact
 
-Wout Claes - wout.claes@student.howest.be
+Wout Claes - Wout.Claes@student.howest.be
 
-Project Link: [https://github.com/HowestDAE/DAE13-WoutClaes](https://github.com/HowestDAE/DAE13-WoutClaes)
+Project Link: [https://github.com/HowestDAE/dae15-WoutClaes](https://github.com/HowestDAE/dae15-WoutClaes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. 
-
-* [The Website where the ripped srites are from](https://www.spriters-resource.com/pc_computer/bindingofisaacrebirth/)
-* [The website that helped me create the algorithm for the random map generation](https://www.boristhebrave.com/2020/09/12/dungeon-generation-in-binding-of-isaac/)
+* [Spritesheet slicing tool](https://www.gamedeveloperstudio.com/tools/spritesheet_slicer.php)
+* [Spritesheet Resource](https://www.spriters-resource.com/snes/mmx/)
+* [Sounds Resource](https://www.sounds-resource.com/snes/megamanx/sound/8913/)
+* [wikki](https://megaman.fandom.com/wiki/Mega_Man_X_(video_game))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
